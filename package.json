@@ -1,8 +1,9 @@
 {
     "name": "@hoobs/pam",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "gypfile": true,
     "main": "build/Release/authenticate_pam.node",
+    "types": "index.d.ts",
     "description": "Asynchronous PAM authentication for Node.JS",
     "homepage": "https://github.com/RushPL/node-authenticate-pam",
     "author": {
