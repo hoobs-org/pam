@@ -1,4 +1,4 @@
-# PAM
+# ![](https://raw.githubusercontent.com/hoobs-org/HOOBS/master/docs/logo.png)
 
 Asynchronous PAM authentication for NodeJS
 
@@ -45,7 +45,7 @@ sudo apt install libpam-dev
 
 Then you can install this module into your project.
 ```
-yarn add @hoobs/pam
+npm install @hoobs/pam
 ```
 
 ## Legal
