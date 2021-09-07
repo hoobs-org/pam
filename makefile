@@ -1,6 +1,7 @@
 pam: paths
 	npm pack
 	mv hoobs-pam-$(shell project version).tgz builds/
+	rm -f *.tgz
 
 paths:
 	mkdir -p builds
