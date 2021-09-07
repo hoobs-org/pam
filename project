@@ -5,17 +5,19 @@ version() {
 }
 
 case $1 in
-    version )  version
-               ;;
+    version )
+        version
+        ;;
 
-    build )    make pam
-               ;;
+    build )
+        make pam
+        ;;
 
-    publish )  make publish
-               ;;
+    publish )
+        make publish
+        ;;
 
-    clean )    make clean
-               ;;
-
-    * )        ;;
+    clean )
+        make clean
+        ;;
 esac
